@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 3px darkgray;
+}
+
+
+/* MENU */
+
+#logo {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 0;
+
+}
+
+#main-header {
+    background-color: #ffffff;
+    top: 0px;
+    position: fixed;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+#main-header .main-navigation {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#main-header .main-navigation ul {
+    vertical-align: middle;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#main-header .main-navigation ul li {
+
+    list-style: none;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 40px;
+}
+
+#main-header .main-navigation ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #0297b5;
+}
+
+#main-header .main-navigation ul li a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    color: #26bdf1;
+}
+
+
+#main-header .dropdown {
+    position: absolute;
+    display: none;
+
+}
+
+/* MENU CONTACTO */
+
+#logo-contact {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 0;
+
+}
+
+#main-header-contact {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+#main-header-contact .main-navigation-contact {
+    max-width: 1200px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#main-header-contact .main-navigation-contact ul {
+    vertical-align: middle;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#main-header-contact .main-navigation-contact ul li {
+
+    list-style: none;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 40px;
+}
+
+#main-header-contact .main-navigation-contact ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #0297b5;
+}
+
+#main-header-contact .main-navigation-contact ul li a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    color: #26bdf1;
+}
+
+
+#main-header-contact .dropdown {
+    position: absolute;
+    display: none;
+
+}
+
+
+/* Inicio */
+
+
+#section-1 {
+    background-image: url('img/aruba1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#section-1 p {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding: 200px 0;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+}
+
+#section-2.home {
+    padding: 0;
+    overflow: hidden;
+}
+
+#section-2.home .p1 {
+    color: #02b3a9;
+    font-size: 18px;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 1%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+
+#section-2.contact {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+
+
+#section-3 {
+    background-color: rgba(153, 215, 234, 0.267);
+}
+
+.section-3-1 {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.section-3-2 {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#section-3 h2 {
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #0297b5;
+
+}
+
+#section-3 h3 {
+    color: #0297b5;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.p3 {
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+    color: #0297b5;
+    font-size: 18px;
+}
+
+#section-3 figure {
+    text-align: center;
+    width: 50%;
+
+}
+
+#section-3 figure img {
+    width: 400px;
+    margin: 15px;
+}
+
+/* Información */
+
+
+.section-info {
+    color: #0297b5;
+    background-color: rgba(153, 215, 234, 0.267);
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-info figure img {
+    width: 400px;
+}
+
+.section-content {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    max-width: 600px;
+}
+
+
+.img-info {
+    min-width: 50px;
+}
+
+
+
+h2 {
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #0297b5;
+}
+
+.btn-info {
+    width: 80px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid #02b3a9;
+    background: none;
+    color: #0297b5;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+.btn-info:hover {
+    color: #ffffff;
+}
+
+.button-center {
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* Alojamientos */
+
+
+.intro {
+    color: #0297b5;
+    background-color: rgba(153, 215, 234, 0.267);
+    margin-bottom: 15px;
+    display: block;
+    text-align: justify;
+    width: 800px;
+    height: 265px;
+    padding: 20px;
+
+}
+
+.intro p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.image-alojamientos {
+    text-align: right;
+    margin-top: -280px;
+
+}
+
+.image-alojamientos img {
+    width: 400px;
+
+}
+
+.hotels {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.arrow-right {
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+}
+
+.arrow-left {
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+}
+
+.hotel-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card img {
+    width: 100%;
+    height: auto;
+}
+
+.hotel-info {
+    padding: 10px;
+}
+
+.hotel-info h3 {
+    font-size: 1.2em;
+    color: #0297b5;
+}
+
+.hotel-info p {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    color: #0297b5;
+}
+
+.hotel-info .btn-reserva {
+    width: 65px;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0297b5;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.btn-reserva:hover {
+    background-color: #02b3a9;
+
+}
+
+
+/* Contacto */
+.p-contact {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.video-container {
+    position: static;
+    height: 100%;
+    width: 100%;
+
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+
+}
+
+.form-container {
+    color: #ffffff;
+    position: static;
+    padding: 10px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 170px;
+    border-radius: 8px;
+    width: 500px;
+    background-color: rgba(214, 236, 255, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#country {
+    padding: 5px;
+    background-color: rgba(214, 236, 255, 0.1);
+    border-radius: 5px;
+    border-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+input,
+textarea {
+    color: #ffffff;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    background: transparent;
+    width: 480px;
+}
+
+
+button {
+    width: 55px;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0297b5;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #02b3a9;
+
+}
+
+/* Thank you page */
+
+#body-thankyou {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background: url('img/aruba-2000.jpg') no-repeat center center/cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.thankyou {
+    margin-top: 20vh;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.thankyou-text {
+    font-family:  "Aguafina Script", cursive;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 120px;
+}
+
+.mensaje1 {
+    font-weight: bold;
+    margin: 25px;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #000;
+
+}.mensaje2 {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 30px;
+}
+
+.mensaje3 {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 30px;
+}
+
+
+.btn-thankyou{
+    background-color: rgba(47, 177, 209, 0.637);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+     
+     
+}
+
+.btn-thankyou:hover {
+    background-color: rgba(28, 104, 122, 0.76);
+}
+
+.redes-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.redes img {
+    width: 35px;
+    margin: 5px;
+}
+
+.pie-pagina-thankyou {
+    color: white;
+    background-color: #0297b5;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    bottom: 0;
+    position: fixed;
+    min-width: 1200px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+/* Footer Contacto */
+
+.pie-pagina-contact {
+    color: white;
+    background-color: #0297b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.pie-pagina-contact .p-footer-contact {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-2-contact {
+    padding: 50px;
+}
+
+.box-3-contact {
+    padding: 50px;
+}
+
+.box-4-contact {
+    padding: 50px;
+}
+
+/* Footer */
+.img-personal {
+    max-height: 100px;
+    max-width: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.pie-pagina {
+    color: white;
+    background-color: #0297b5;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    bottom: 0px;
+    
+}
+
+.pie-pagina .p-footer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-2 {
+    padding: 50px;
+}
+
+.box-3 {
+    padding: 50px;
+}
+
+.box-4 {
+    padding: 50px;
+}
+
+
+.pie-pagina-contact {
+    bottom: 0px;
+    position: fixed;
+    min-width: 1200px;
+    width: 100%;
+    
+}
